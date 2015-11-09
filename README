@@ -1,0 +1,75 @@
+Author : Yingtian Wang
+Assignment5  : form letter
+
+This submission contains:
+    1.source file: 	fl.c 
+    			fl.h 
+    			get_record.c 
+    			mailmerge.c 
+    			wordstore13.c
+    			ws13.h
+    			process.c
+    			Makefile
+    2.test data:
+
+   		test1  : file that has  ',' as field seperator, and new line as record seperator
+   		test2  : file that has  new line as field seperator ,  and '#'' as record seperator
+   		test3  : file that has  '\' as filed seperator , and new line as record seperator
+        	test4  : data for format file fmt, x as filed seperator, Y as record seperator
+        	fmt    : format file for test4
+        	UNIX_cmd_fmt  : format file use UNIX command 
+          	UNIX_cmd_data : data file use UNIX command
+   			  
+        use    
+   	   ./fl -d, sample.fmt test1 -r# -D test2      this will use ',' for test1 and # as record seperator 
+   															for test2 default field seperator for test2
+
+   	   ./fl sample.fmt -d, test1 -d/ test3         this will use ',' for test1 and / as filed seperator for test3
+
+           ./fl UNIX_cmd_fmt UNIX_cmd_data             to test Embedded Shell Commands
+
+           ./fl fmt -dx -rY test4                      to test format fiel fmt and data file test4
+
+
+   	3.sample run:			
+   			sample_run_own_testdata : is the sample run with test1 test2 and test3
+          		sample_run_own_testdata2 : is the sample run with test4 and fmt
+			sampel_run_sample_data : is the sample run with sample_tt and sample_dat (note: the given sample data name 																				changed)
+
+        		sample_run_UNIX_cmd    : sample run for  Embedded Shell Commands
+
+   	4.typesciprt:
+   			typescript   this is the sample run with test.fl script
+
+   			typesscirpt_gcc is the sample run with gcc -Wall   
+   						(compile use :  gcc -Wall  fl.h fl.c ws13.h get_record.c mailmerge.c wordstore13.c process.c -o fl)
+
+   			typescirpt_make is the sample run with make
+
+
+Exceptional handling:
+	(1) a field entry without equal sign, it will report this info and also print out the wrong field
+
+	../fl: no equal sign:field "kallin      ttyp1       Nov 25 08:00          " is invalid
+
+	(2) a file entry with a blank field name, it will report the info and print out the wrong field
+
+	../fl: field name is blank:field "=" is invalid
+
+	(3) unterminated field name 
+	if there is a missing a end % , it will treat the following content as field name until it exceed the MAX length,
+	
+	for example:
+	../fl: field name is unterminated or exceed MAX length
+	
+	(4)no such data
+
+	../fl: Cannot open format file:no-such-file
+
+Note : if there are two %%, it will skip one of them and print out it to stdout 
+    e.g.
+    Arlington, Alan 10%
+	Berkeley, Barbara 10%
+	Clarendon, Carol 10%
+	Dartmouth, D. 10%
+

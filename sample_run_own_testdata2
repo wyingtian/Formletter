@@ -1,0 +1,12 @@
+Script started on Sun 08 Nov 2015 06:54:39 PM EST
+yingtianwang@ice1:~/HW5_ftest$ ./fl fmt -dx -rY test4
+Dear student  in class2 :
+	For the homework  on Sun Nov  8 18:54:52 EST 2015
+, you did a good  job.
+Dear guys  in class3 :
+	For the homework hw4  on Sun Nov  8 18:54:52 EST 2015
+, you did a bad  job.
+yingtianwang@ice1:~/HW5_ftest$ exit
+exit
+
+Script done on Sun 08 Nov 2015 06:54:59 PM EST

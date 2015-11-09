@@ -1,0 +1,119 @@
+Script started on Sun 08 Nov 2015 04:29:39 PM EST
+yingtianwang@ice4:~/fl_3$ gcc -Wall  fl.h fl.c ws13.h get_record.c mailmerge.c w 
+ordstore13.c process.c -o fl
+yingtianwang@ice4:~/fl_3$  ./fl -d, sample.fmt test1 -r# -D test2
+                                            Nov 8 2015
+
+	Dear Mr. Arlington,
+
+	You and everyone at 12 Apple Lane will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Alan, you may be the
+	person in Sometown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Ms. Berkeley,
+
+	You and everyone at 23 Birch Ave will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Barbara, you may be the
+	person in Uptown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Mrs. Clarendon,
+
+	You and everyone at 34 Clover Drive will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Carol, you may be the
+	person in Sometown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Adm. Dartmouth,
+
+	You and everyone at 45 Daffodil Blvd will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, D., you may be the
+	person in Uptown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Dr. Exeter,
+
+	You and everyone at 56 Elm Street will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Eric, you may be the
+	person in Uptown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear The Rev. Fairfield,
+
+	You and everyone at 67 Flax Circle will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Francis, you may be the
+	person in Downtown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Miss Gloucester,
+
+	You and everyone at 78 Gull Walk will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Gail, you may be the
+	person in Uptown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Mr. Hereford,
+
+	You and everyone at 89 Hawk Road will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Henry, you may be the
+	person in Downtown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Mr.   Arlington	,
+
+	You and everyone at 12 Apple Lane will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Alan, you may be the
+	person in Sometown  to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Ms. Berkeley,
+
+	You and everyone at 23 Birch Ave will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Barbara, you may be the
+	person in Uptown to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+                                            Nov 8 2015
+
+	Dear Mrs. Clarendon,
+
+	You and everyone at 34 Clover Drive    will be delighted to hear
+	that you may already have won a major prize in the
+	CSCI sweepstakes.  Yes, Carol, you may be the
+	person in Sometown   to be the lucky winner of a new jet 
+	aircraft, ocean liner, or luxury vacation.  Read on..
+
+
+yingtianwang@ice4:~/fl_3$ exit
+exit
+
+Script done on Sun 08 Nov 2015 04:31:05 PM EST
