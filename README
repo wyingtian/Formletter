@@ -1,7 +1,11 @@
-Author : Yingtian Wang
-Assignment5  : form letter
-
-This submission contains:
+Purpose: user provide a format file and a data file, this program will plug each item of the data file into the format file
+	to generate a form letter.
+usage: ./fl -d[field seperator] [sample file ...]  -r[record seperator]  [data file...]
+	e.g  -d, is "," as field seperator
+	     -D  is the default field seperator
+	     -f# si "#" as record seperator
+	     
+Files:
     1.source file: 	fl.c 
     			fl.h 
     			get_record.c 
@@ -11,7 +15,6 @@ This submission contains:
     			process.c
     			Makefile
     2.test data:
-
    		test1  : file that has  ',' as field seperator, and new line as record seperator
    		test2  : file that has  new line as field seperator ,  and '#'' as record seperator
    		test3  : file that has  '\' as filed seperator , and new line as record seperator
@@ -19,11 +22,9 @@ This submission contains:
         	fmt    : format file for test4
         	UNIX_cmd_fmt  : format file use UNIX command 
           	UNIX_cmd_data : data file use UNIX command
-   			  
         use    
    	   ./fl -d, sample.fmt test1 -r# -D test2      this will use ',' for test1 and # as record seperator 
-   															for test2 default field seperator for test2
-
+   											
    	   ./fl sample.fmt -d, test1 -d/ test3         this will use ',' for test1 and / as filed seperator for test3
 
            ./fl UNIX_cmd_fmt UNIX_cmd_data             to test Embedded Shell Commands
